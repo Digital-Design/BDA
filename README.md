@@ -1,15 +1,50 @@
 # BDA
 
 ## A Utiliser :
--serveur apache (wamp, laragon, lamp etc..)
+ * serveur apache (wamp, laragon, lamp etc..)
 
--github (git gui est pas mal, un peu bizarre à utiliser mais ça passe)
+ * github
 
--trello (à mettre en favori, il y a la liste des tâches à faire)
+ * trello (à mettre en favori, il y a la liste des tâches à faire)
 
--Doc php et doc Symfony
+ * Doc php et doc Symfony (idem en favori)
 
-## Symfony Standard Edition
+ * la liste des liens utiles dispos sur le drive.
+
+## Informations utiles
+### Only windows :
+ * installer cmder : http://cmder.net/ console de bien meilleure qualité que celle de windows.
+ --------------
+
+ * installer composer : https://getcomposer.org/download/ windows ou linux, whatever
+
+ * installer npm : https://nodejs.org/en/download/ windows ou linux, idem.
+
+ * installer une interface git (git gui ou git desktop mais il faut que ça marche)
+
+### Comment ça marche ?
+
+Vous cloner le repository dans un dossier, sur windows:
+
+	* C:/{nom du serveur}/www/bda de préférence
+
+	* /var/html/www/bda ou un truc comme ça sur linux
+
+Si vous avez bien installer ce qui a été demandé au-dessus c'est bon.
+
+Architecture du site :
+
+	* web/ -> c'est l'équivalent d'un public/ c'est tout ce qui sera visible au grand public, donc en général, ça en contient que les fichiers .js, .css, ou les images
+
+	* src/{nom_du_bundle} -> c'est la ou seront stockés les controlleurs, ainsi que les appels des objets en base de données
+
+	* app/config -> c'est la qu'il y aura toutes la configuration du site, routes etc..
+
+	* app/resources -> c'est la qu'on stockera nos vues, attention, c'est du twig.
+
+	Des questions ? go me mp.
+	
+Symfony Standard Edition
 ========================
 
 Welcome to the Symfony Standard Edition - a fully-functional Symfony
