@@ -13,6 +13,7 @@
 
 ## Informations utiles
 ### Only windows :
+
  * installer cmder : http://cmder.net/ console de bien meilleure qualité que celle de windows.
  --------------
 
@@ -43,7 +44,7 @@ Architecture du site :
 	* app/resources -> c'est la qu'on stockera nos vues, attention, c'est du twig.
 
 	Des questions ? go me mp.
-	
+
 Symfony Standard Edition
 ========================
 
