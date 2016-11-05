@@ -1,4 +1,15 @@
-Symfony Standard Edition
+# BDA
+
+## A Utiliser :
+-serveur apache (wamp, laragon, lamp etc..)
+
+-github (git gui est pas mal, un peu bizarre à utiliser mais ça passe)
+
+-trello (à mettre en favori, il y a la liste des tâches à faire)
+
+-Doc php et doc Symfony
+
+## Symfony Standard Edition
 ========================
 
 Welcome to the Symfony Standard Edition - a fully-functional Symfony
