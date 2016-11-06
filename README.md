@@ -15,7 +15,7 @@
 ### Only windows :
 
  * installer cmder : http://cmder.net/ console de bien meilleure qualité que celle de windows.
- --------------
+
 
  * installer composer : https://getcomposer.org/download/ windows ou linux, whatever
 
