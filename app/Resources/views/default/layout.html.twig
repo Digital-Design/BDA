@@ -1,0 +1,45 @@
+{% extends 'maquette.html.twig' %}
+
+{% block header %}
+	<!-- bootstrap header -->
+{% endblock %}
+
+{% block footer %}
+	<!-- bootstrap footer -->
+{% endblock %}
+
+{% block body %}
+	<div id="wrapper">
+		<div id="container">
+			<div id="welcome">
+				<h1>Maquette en cours.</h1>
+			</div>
+		</div>
+	</div>
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+	@import url('https://fonts.googleapis.com/css?family=Lato:100');
+
+	body {
+		background: #F5F5F5;
+		color: #ce1212;
+	}
+	h1 {
+		font-family: 'Lato', sans-serif;
+		font-size: 90px;
+		display: inline-block;
+		margin-top:20%;
+	}
+	#welcome{
+		width: 100%;
+		text-align: center;
+	}
+</style>
+{% endblock %}
+
+{% block javascripts %}
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+{% endblock %}

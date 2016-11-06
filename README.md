@@ -45,6 +45,11 @@ Architecture du site :
 
 	Des questions ? go me mp.
 
+## Urls :
+
+ * localhost/bda/web/app_dev.php => page d'accueil
+ * localhost/bda/web/app_dev.php/maquette => maquette du site. (Work in progress)
+
 Symfony Standard Edition
 ========================
 

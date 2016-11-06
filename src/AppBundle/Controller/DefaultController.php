@@ -18,4 +18,11 @@ class DefaultController extends Controller
             'base_dir' => realpath($this->getParameter('kernel.root_dir').'/..').DIRECTORY_SEPARATOR,
         ]);
     }
+	/**
+	 * @Route("/maquette", name="maquette")
+	 */
+	public function maquetteAction(Request $request)
+	{
+		return $this->render('default/layout.html.twig');
+	}
 }
