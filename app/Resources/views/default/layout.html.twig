@@ -2,12 +2,23 @@
 
 {% block header %}
 	<!-- bootstrap header -->
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
-			<ul class="nav nav-pills">
-				<li role="presentation" class="active"><a href="#">Accueil</a></li>
-				<li role="presentation"><a href="#">Mon compte</a></li>
+			<div class="navbar-header">
+      			<a class="navbar-brand" href="#">
+        			<img class="img-header-mini" alt="Brand" src="../img/logobda.jpg">
+				</a>
+				<a class="navbar-brand" href="#">
+					Bureau des Arts - ISEN Brest
+				</a>
+    		</div>
+			<ul class="nav nav-pills navbar-right">
+				<li role="presentation" class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Accueil</a></li>
+				<li role="presentation"><a href="#"><i class="fa fa-camera" aria-hidden="true"></i> Mes soirées</a></li>
+				<li role="presentation"><a href="#"><i class="fa fa-cogs" aria-hidden="true"></i> Paramètres du compte</a></li>
+				<li role="presentation"><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Déconnexion</a></li>
 			</ul>
+			<p class="navbar-text navbar-right">Bienvenue Anonyme1234 ! &nbsp; </p>
 		</div>
 	</nav>
 {% endblock %}
@@ -19,9 +30,22 @@
 {% block body %}
 	<div id="wrapper">
 		<div id="container-fluid">
-			<div id="welcome">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+	    			<h3 class="panel-title">Soirée Halloween !</h3>
+	  			</div>
+	  			<div class="panel-body">
+	    			Les photos de la soirée d'halloween viennent d'arrivée !
+	  			</div>
+  			</div>
+			<!--<p> http://tympanus.net/codrops/2014/05/15/recreating-the-design-samsung-grid-loading-effect/ </p>
+			<p> http://tympanus.net/codrops/2014/03/21/google-grid-gallery/ </p>
+		--><div id="welcome">
 				<h1>Maquette en cours.</h1>
 			</div>
+			<div id="test-rouge"></div>
+			<div id="test-orange"></div>
+			<div id="test-jaune"></div>
 		</div>
 	</div>
 {% endblock %}
@@ -33,21 +57,44 @@
 
 	body {
 		background: #F5F5F5;
-		color: #ce1212;
+		padding-top: 70px;
+	}
+	.img-header-mini{
+		height: 50px;
+		margin-top: -15px;
+	}
+	.panel{
+		width: 50%;
+		margin: auto;
 	}
 	h1 {
+		color: #ce1212;
 		font-family: 'Lato';
 		font-size: 90px;
 		display: inline-block;
-		margin-top:20%;
+		/*margin-top:2%;*/
+		margin-bottom: 5%;
 	}
 	#welcome{
 		width: 100%;
 		text-align: center;
+	}
+	#test-rouge{
+		height: 250px;
+		background-color: #ee3324;
+	}
+	#test-orange{
+		height: 250px;
+		background-color: #faa41a;
+	}
+	#test-jaune{
+		height: 250px;
+		background-color: #fced52;
 	}
 </style>
 {% endblock %}
 
 {% block javascripts %}
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/99a21ba8e7.js"></script>
 {% endblock %}

@@ -1,5 +1,23 @@
 # BDA
 
+## TO-DO List :
+
+1. Allez voir la rubrique **"Informations utiles"** et installez ce qui est demandé.
+
+Si vous avez tout installé, vous pouvez maintenant revenir sur le repository github
+
+2. Cliquez sur **"clone and download"**, puis choisissez
+
+	* **"download Zip"** si vous souhaitez unzip et déplacer vous même le dossier.
+
+	* **"Copy to clipboard"** si vous souahitez utiliser Git GUI ou la ligne de commande.
+
+	* **"Open in desktop"** si vous comptez utiliser Git desktop
+
+3. Sur git gui et git desktop, assurez vous que le projet soit cloné sur le www/ de votre serveur apache.
+
+4. Si l'installation s'est bien déroulé, vous devriez voir plein de dossier dans votre dossier **"bda"**
+
 ## A Utiliser :
  * serveur apache (wamp, laragon, lamp etc..)
 
