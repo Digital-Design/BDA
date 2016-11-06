@@ -41,6 +41,15 @@ Si vous avez tout installé, vous pouvez maintenant revenir sur le repository gi
 
  * installer une interface git (git gui ou git desktop mais il faut que ça marche)
 
+ * installer ruby : http://rubyinstaller.org/downloads/ pour windows, via les packages pour linux
+ et pour linux également :
+	sudo su -c "gem install sass"
+
+ * une fois ruby installé, en console taper ça :
+ 	gem install sass _ou_ sudo gem install sass
+ pour vérifier l'installation :
+ 	sass -v
+
 ### Comment ça marche ?
 
 Vous cloner le repository dans un dossier, sur windows:
@@ -67,6 +76,10 @@ Architecture du site :
 
  * localhost/bda/web/app_dev.php => page d'accueil
  * localhost/bda/web/app_dev.php/maquette => maquette du site. (Work in progress)
+
+
+---
+
 
 Symfony Standard Edition
 ========================
