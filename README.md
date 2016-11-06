@@ -34,6 +34,7 @@ Si vous avez tout installé, vous pouvez maintenant revenir sur le repository gi
 
  * installer cmder : http://cmder.net/ console de bien meilleure qualité que celle de windows.
 
+---
 
  * installer composer : https://getcomposer.org/download/ windows ou linux, whatever
 
@@ -46,8 +47,11 @@ Si vous avez tout installé, vous pouvez maintenant revenir sur le repository gi
 	sudo su -c "gem install sass"
 
  * une fois ruby installé, en console taper ça :
- 	gem install sass _ou_ sudo gem install sass
+
+	gem install sass _*ou*_ sudo gem install sass
+
  pour vérifier l'installation :
+
  	sass -v
 
 ### Comment ça marche ?
