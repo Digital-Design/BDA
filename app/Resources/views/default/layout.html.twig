@@ -30,15 +30,21 @@
 {% block body %}
 	<div id="wrapper">
 		<div id="container-fluid">
-			<div class="panel panel-primary">
+			<div class="alert alert-info alert-dismissible fade-in" role="alert">
+  				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  				Les photos de la soirée d'halloween sont disponibles, allez y jeter un oeil !
+			</div>
+			<div class="panel panel-primary info-soiree" id="info-soiree">
 				<div class="panel-heading">
-	    			<h3 class="panel-title">Soirée Halloween !</h3>
-	  			</div>
+					Soirée Halloween !
+					<button type="button" class="close" data-target="#info-soiree" data-dismiss="alert"> <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+					</button>
+				</div>
 	  			<div class="panel-body">
 	    			Les photos de la soirée d'halloween viennent d'arrivée !
 	  			</div>
   			</div>
-			<!--<p> http://tympanus.net/codrops/2014/05/15/recreating-the-design-samsung-grid-loading-effect/ </p>
+			<!--<p> http://tympanus.net/codrops/2014/03/21/google-grid-gallery/ </p>
 			<p> http://tympanus.net/codrops/2014/03/21/google-grid-gallery/ </p>
 		--><div id="welcome">
 				<h1>Maquette en cours.</h1>
@@ -53,11 +59,14 @@
 {% block stylesheets %}
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="web/scss/style.scss">
+<link rel="stylesheet" href="../css/style.css">
 
 {% endblock %}
 
 {% block javascripts %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/99a21ba8e7.js"></script>
+
 {% endblock %}

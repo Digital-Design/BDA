@@ -1,6 +1,6 @@
-$rouge = #ee3324;
-$orange = #faa41a;
-$jaune = #fced52;
+$rouge : #ee3324;
+$orange : #faa41a;
+$jaune : #fced52;
 
 @import url('https://fonts.googleapis.com/css?family=Lato:100|Roboto&effect=neon');
 
@@ -12,7 +12,7 @@ body {
 	height: 50px;
 	margin-top: -15px;
 }
-.panel{
+.alert, .panel{
 	width: 50%;
 	margin: auto;
 }
@@ -28,10 +28,10 @@ h1 {
 	width: 100%;
 	text-align: center;
 }
-function test-($color){
+/*function test($color){
 	height: 250px;
 	background-color: $color;
-}
+}*/
 #test-rouge{
 	height: 250px;
 	background-color: $rouge;
