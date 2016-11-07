@@ -44,15 +44,18 @@ Si vous avez tout installé, vous pouvez maintenant revenir sur le repository gi
 
  * installer ruby : http://rubyinstaller.org/downloads/ pour windows, via les packages pour linux
  et pour linux également :
-	sudo su -c "gem install sass"
-
+ ```	
+sudo su -c "gem install sass"
+ ```
+ 
  * une fois ruby installé, en console taper ça :
-
-	gem install sass _*ou*_ sudo gem install sass
-
- pour vérifier l'installation :
-
- 	sass -v
+ ```
+gem install sass _*ou*_ sudo gem install sass
+ ```
+ * pour vérifier l'installation :
+```
+sass -v
+```
 
 ### Comment ça marche ?
 
