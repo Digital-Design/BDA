@@ -12,6 +12,9 @@
 					Bureau des Arts - ISEN Brest
 				</a>
     		</div>
+			<!--<div id="welcome">
+				<h1>Maquette en cours.</h1>
+			</div>-->
 			<ul class="nav nav-pills navbar-right">
 				<li role="presentation" class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Accueil</a></li>
 				<li role="presentation"><a href="#"><i class="fa fa-camera" aria-hidden="true"></i> Mes soirées</a></li>
@@ -30,28 +33,88 @@
 {% block body %}
 	<div id="wrapper">
 		<div id="container-fluid">
-			<div class="alert alert-info alert-dismissible fade-in" role="alert">
-  				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  				Les photos de la soirée d'halloween sont disponibles, allez y jeter un oeil !
+<!-- NAV lateral -->
+			<div class="col-md-2">
+				<ul class="list-group">
+				  <li class="list-group-item">Album n°1</li>
+				  <li class="list-group-item">Album n°2</li>
+				  <li class="list-group-item">Album n°3</li>
+				  <li class="list-group-item">Album n°4</li>
+				  <li class="list-group-item">Album n°5</li>
+				</ul>
 			</div>
-			<div class="panel panel-primary info-soiree" id="info-soiree">
-				<div class="panel-heading">
-					Soirée Halloween !
-					<button type="button" class="close" data-target="#info-soiree" data-dismiss="alert"> <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-					</button>
+			<div class="col-md-10">
+				<div class="alert alert-info alert-dismissible fade-in" role="alert">
+	  				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	  				Les photos de la soirée d'halloween sont disponibles, allez y jeter un oeil !
 				</div>
-	  			<div class="panel-body">
-	    			Les photos de la soirée d'halloween viennent d'arrivée !
+				<div class="panel panel-primary info-soiree" id="info-soiree">
+					<div class="panel-heading">
+						Soirée Halloween !
+						<button type="button" class="close" data-target="#info-soiree" data-dismiss="alert"> <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+						</button>
+					</div>
+		  			<div class="panel-body">
+		    			Les photos de la soirée d'halloween viennent d'arrivée !
+		  			</div>
 	  			</div>
-  			</div>
+				<div id="welcome">
+					<h1>Maquette en cours.</h1>
+				</div>
+				<div class="row">
+					<div class="album col-md-12">
+						<div class="row">
+							<h2>Titre de l'album</h2>
+							<p>Description de l'album</p>
+							<hr>
+						</div>
+						<div class="row">
+							<div class="col-md-6 left">
+								<div class="img-album-accueil">
+									<i class="fa fa-camera fa-6" aria-hidden="true"></i>
+								</div>
+							</div>
+							<div class="col-md-6 right">
+								<div class="img-album-accueil">
+									<i class="fa fa-camera fa-6" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 left">
+								<div class="img-album-accueil">
+									<i class="fa fa-camera fa-6" aria-hidden="true"></i>
+								</div>
+							</div>
+							<div class="col-md-6 right">
+								<div class="img-album-accueil">
+									<i class="fa fa-camera fa-6" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 left">
+								<div class="img-album-accueil">
+									<i class="fa fa-camera fa-6" aria-hidden="true"></i>
+								</div>
+							</div>
+							<div class="col-md-6 right">
+								<div class="img-album-accueil">
+									<i class="fa fa-camera fa-6" aria-hidden="true"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div id="test-rouge"></div>
+					<div id="test-orange"></div>
+					<div id="test-jaune"></div>
+				</div>
+			</div>
 			<!--<p> http://tympanus.net/codrops/2014/03/21/google-grid-gallery/ </p>
 			<p> http://tympanus.net/codrops/2014/03/21/google-grid-gallery/ </p>
-		--><div id="welcome">
-				<h1>Maquette en cours.</h1>
-			</div>
-			<div id="test-rouge"></div>
-			<div id="test-orange"></div>
-			<div id="test-jaune"></div>
+		-->
 		</div>
 	</div>
 {% endblock %}
